@@ -8,3 +8,6 @@ LeetCode Practice
 
 ## Recursion
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) (Apple, Amazon, Microsoft, …)
+
+## Linked List
+[83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
