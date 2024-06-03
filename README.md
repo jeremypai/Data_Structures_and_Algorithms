@@ -14,3 +14,6 @@ LeetCode Practice
 
 ## String
 [67. Add Binary](https://leetcode.com/problems/add-binary/description/)
+
+## Stack
+[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
