@@ -6,6 +6,8 @@ LeetCode Practice
 
 [100. Same Tree](https://leetcode.com/problems/same-tree/description/)
 
+[501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)
+
 ## Recursion
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) (Apple, Amazon, Microsoft, …)
 
