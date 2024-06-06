@@ -19,3 +19,6 @@ LeetCode Practice
 
 ## Stack
 [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
+
+## Queue
+[429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)
