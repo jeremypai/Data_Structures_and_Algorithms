@@ -1,6 +1,14 @@
 # LeetCode
 LeetCode Practice
 
+## GoogleTest - [link](https://google.github.io/googletest/)
+```
+$ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+$ cmake --build build
+$ cd build
+$ ctest --output-on-failure
+```
+
 ## Tree
 [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
 
