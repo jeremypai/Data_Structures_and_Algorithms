@@ -1,6 +1,11 @@
 project(bubble_sort_test)
 
-add_executable(${PROJECT_NAME} bubble_sort.cpp)
+add_executable(${PROJECT_NAME} 
+    ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/bubble_sort.cpp)
+
+target_include_directories(${PROJECT_NAME}
+    PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 
 target_link_libraries(${PROJECT_NAME}
     PRIVATE GTest::gtest_main)

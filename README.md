@@ -2,9 +2,15 @@
 LeetCode Practice
 
 ## GoogleTest - [link](https://google.github.io/googletest/)
+If you are currently using the Windows platform, type a command like the following for environment setup:
 ```
-$ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
-$ cmake --build build
+%comspec% /k "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
+```
++ This command can be accessed from x64 Native Tools Command Prompt for VS xx.
+
+```
+$ cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+$ cmake --build build (or ninja)
 $ cd build
 $ ctest --output-on-failure
 ```
