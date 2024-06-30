@@ -20,3 +20,4 @@ include(GoogleTest)
 
 add_subdirectory(data_structures)
 add_subdirectory(sorting)
+add_subdirectory(tower_of_hanoi)
