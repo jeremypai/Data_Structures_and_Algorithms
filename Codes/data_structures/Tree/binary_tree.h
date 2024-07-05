@@ -26,4 +26,6 @@ void dfsRightInOrderTraversal(TreeNode *node, std::string &res);
 
 void dfsRightPostOrderTraversal(TreeNode *node, std::string &res);
 
+void bfsTraversal(TreeNode *node, std::string &res);
+
 #endif // ! BINARY_TREE_H_

@@ -1,6 +1,7 @@
 #include "binary_tree.h"
 #include <array>
 #include <gtest/gtest.h>
+#include <string>
 #include <vcruntime.h>
 
 class TraverseTest : public testing::Test {
@@ -98,4 +99,11 @@ TEST_F(TraverseTest, DFSRightPostOrderTraversal) {
   std::string res = "";
   dfsRightPostOrderTraversal(tree, res);
   ASSERT_EQ(res, "7 6 3 4 1 2 5 ");
+}
+
+TEST_F(TraverseTest, BFSTraversal) {
+  TreeNode *tree = getTree();
+  std::string res = "";
+  bfsTraversal(tree, res);
+  ASSERT_EQ(res, "5 2 6 1 4 7 3 ");
 }

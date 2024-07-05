@@ -1,5 +1,6 @@
 #include "binary_tree.h"
 #include <iostream>
+#include <queue>
 #include <string>
 
 void dfsLeftPreOrderTraversal(TreeNode *node, std::string &res) {
@@ -60,4 +61,30 @@ void dfsRightPostOrderTraversal(TreeNode *node, std::string &res) {
   dfsRightPostOrderTraversal(node->right, res);
   dfsRightPostOrderTraversal(node->left, res);
   res = res + std::to_string(node->val) + " ";
+}
+
+void bfsTraversal(TreeNode *node, std::string &res) {
+  if (node == nullptr) {
+    return;
+  }
+
+  std::queue<TreeNode *> q;
+  q.push(node);
+
+  while (true) {
+    if (q.empty()) {
+      break;
+    }
+
+    TreeNode *n = q.front();
+    q.pop();
+    if (n == nullptr) {
+      continue;
+    }
+
+    res = res + std::to_string(n->val) + " ";
+
+    q.push(n->left);
+    q.push(n->right);
+  }
 }
