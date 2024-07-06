@@ -1,4 +1,3 @@
-
 // Definition for a binary tree node.
 struct TreeNode {
   int val;
@@ -11,41 +10,57 @@ struct TreeNode {
 };
 
 class Solution {
+public:
+  bool isValidBST(TreeNode *root) { return isValidBSTInternal(root); }
+
 private:
-  bool isValidBSTInternal(TreeNode *root) {
-    if (root == nullptr) {
+  bool isValidBSTInternal(TreeNode *node) {
+    if (node == nullptr) {
       return true;
     }
 
-    // Check if rightmost node of root->left is valid
-    TreeNode *rootLeft = root->left;
-    while (true) {
-      if (rootLeft == nullptr || rootLeft->right == nullptr) {
-        break;
-      }
-      rootLeft = rootLeft->right;
-    }
-
-    if (rootLeft != nullptr && rootLeft->val >= root->val) {
+    TreeNode *leftTreeMaxNode = getMaxNode(node->left);
+    if (leftTreeMaxNode != nullptr && leftTreeMaxNode->val >= node->val) {
       return false;
     }
 
-    // Check if leftmost node of root->right is valid
-    TreeNode *rootRight = root->right;
-    while (true) {
-      if (rootRight == nullptr || rootRight->left == nullptr) {
-        break;
-      }
-      rootRight = rootRight->left;
-    }
-
-    if (rootRight != nullptr && rootRight->val <= root->val) {
+    TreeNode *rightTreeMinNode = getMinNode(node->right);
+    if (rightTreeMinNode != nullptr && rightTreeMinNode->val <= node->val) {
       return false;
     }
 
-    return isValidBSTInternal(root->left) && isValidBSTInternal(root->right);
+    return isValidBSTInternal(node->left) && isValidBSTInternal(node->right);
   }
 
-public:
-  bool isValidBST(TreeNode *root) { return isValidBSTInternal(root); }
+  TreeNode *getMaxNode(TreeNode *node) {
+    if (node == nullptr) {
+      return nullptr;
+    }
+
+    while (true) {
+      if (node->right == nullptr) {
+        break;
+      }
+
+      node = node->right;
+    }
+
+    return node;
+  }
+
+  TreeNode *getMinNode(TreeNode *node) {
+    if (node == nullptr) {
+      return nullptr;
+    }
+
+    while (true) {
+      if (node->left == nullptr) {
+        break;
+      }
+
+      node = node->left;
+    }
+
+    return node;
+  }
 };
