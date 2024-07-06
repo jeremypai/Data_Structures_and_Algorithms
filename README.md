@@ -24,6 +24,8 @@ $ ctest --output-on-failure
 
 [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
 
+[875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/)
+
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
