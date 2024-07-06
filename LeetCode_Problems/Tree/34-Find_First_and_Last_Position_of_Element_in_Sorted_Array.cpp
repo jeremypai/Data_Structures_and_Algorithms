@@ -1,51 +1,48 @@
 #include <vector>
 
 class Solution {
+private:
+  std::vector<int> ans = {-1, -1};
+
 public:
   std::vector<int> searchRange(std::vector<int> &nums, int target) {
-    if (nums.empty()) {
-      return {-1, -1};
-    }
-
-    int left = searchLeftTarget(nums, target, 0, nums.size() - 1);
-    int right = searchRightTarget(nums, target, 0, nums.size() - 1);
-    return {left, right};
+    searchLeftMostValue(nums, target, 0, nums.size() - 1);
+    searchRightMostValue(nums, target, 0, nums.size() - 1);
+    return ans;
   }
 
 private:
-  int searchLeftTarget(const std::vector<int> &nums, int target, int left,
-                       int right) {
-    int result = -1;
-    while (left <= right) {
-      int middle = (left + right) / 2;
-      if (nums[middle] == target) {
-        result = middle;
-        right = middle - 1;
-      } else if (nums[middle] < target) {
-        left = middle + 1;
-      } else {
-        right = middle - 1;
-      }
+  void searchLeftMostValue(const std::vector<int> &nums, int target, int start,
+                           int end) {
+    if (start > end) {
+      return;
     }
 
-    return result;
+    int mid = (start + end) / 2;
+    if (nums[mid] == target) {
+      ans[0] = mid;
+      searchLeftMostValue(nums, target, start, mid - 1);
+    } else if (nums[mid] < target) {
+      searchLeftMostValue(nums, target, mid + 1, end);
+    } else {
+      searchLeftMostValue(nums, target, start, mid - 1);
+    }
   }
 
-  int searchRightTarget(const std::vector<int> &nums, int target, int left,
-                        int right) {
-    int result = -1;
-    while (left <= right) {
-      int middle = (left + right) / 2;
-      if (nums[middle] == target) {
-        result = middle;
-        left = middle + 1;
-      } else if (nums[middle] < target) {
-        left = middle + 1;
-      } else {
-        right = middle - 1;
-      }
+  void searchRightMostValue(const std::vector<int> &nums, int target, int start,
+                            int end) {
+    if (start > end) {
+      return;
     }
 
-    return result;
+    int mid = (start + end) / 2;
+    if (nums[mid] == target) {
+      ans[1] = mid;
+      searchRightMostValue(nums, target, mid + 1, end);
+    } else if (nums[mid] < target) {
+      searchRightMostValue(nums, target, mid + 1, end);
+    } else {
+      searchRightMostValue(nums, target, start, mid - 1);
+    }
   }
 };
