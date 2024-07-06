@@ -13,19 +13,15 @@ struct TreeNode {
 
 class Solution {
 private:
-  std::vector<int> result_;
-  int mostCnt_ = 0;
-  int curCnt_ = 0;
-  int *preValue_ = nullptr;
+  std::vector<int> maxModes_;
+  int prev_ = 0;
+  int curCount_ = 0;
+  int maxCount_ = 0;
 
 public:
   std::vector<int> findMode(TreeNode *root) {
-    if (root == nullptr) {
-      return result_;
-    }
-
     traverse(root);
-    return result_;
+    return maxModes_;
   }
 
 private:
@@ -36,19 +32,19 @@ private:
 
     traverse(node->left);
 
-    if (preValue_ == nullptr || *preValue_ != node->val) {
-      preValue_ = &(node->val);
-      curCnt_ = 1;
+    if (node->val == prev_) {
+      ++curCount_;
     } else {
-      ++curCnt_;
+      prev_ = node->val;
+      curCount_ = 1;
     }
 
-    if (curCnt_ > mostCnt_) {
-      result_.clear();
-      result_.emplace_back(*preValue_);
-      mostCnt_ = curCnt_;
-    } else if (curCnt_ == mostCnt_) {
-      result_.emplace_back(*preValue_);
+    if (curCount_ == maxCount_) {
+      maxModes_.emplace_back(node->val);
+    } else if (curCount_ > maxCount_) {
+      maxModes_.clear();
+      maxModes_.emplace_back(node->val);
+      maxCount_ = curCount_;
     }
 
     traverse(node->right);
