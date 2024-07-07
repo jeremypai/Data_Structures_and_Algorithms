@@ -29,6 +29,8 @@ $ ctest --output-on-failure
 ## Hash
 [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
 
+[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
+
 [356. Line Reflection (LeetCode Premium)](https://leetcode.com/problems/line-reflection/description/)
 
 ## Graph
