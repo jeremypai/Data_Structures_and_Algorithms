@@ -26,6 +26,9 @@ $ ctest --output-on-failure
 
 [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/)
 
+## Hash
+[205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
+
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
