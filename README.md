@@ -29,6 +29,8 @@ $ ctest --output-on-failure
 ## Hash
 [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
 
+[356. Line Reflection (LeetCode Premium)](https://leetcode.com/problems/line-reflection/description/)
+
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
