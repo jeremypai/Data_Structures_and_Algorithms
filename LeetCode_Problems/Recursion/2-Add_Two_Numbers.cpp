@@ -11,35 +11,35 @@ struct ListNode {
 class Solution {
 public:
   ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
-    ListNode *result = new ListNode();
-    ListNode *head = result;
-    addTwoNumbersInternal(result, l1, l2, 0);
-    return head->next;
+    // dummy head
+    ListNode *ans = new ListNode(0);
+
+    addNumbersRecursion(l1, l2, ans, 0);
+    return ans->next;
   }
 
 private:
-  void addTwoNumbersInternal(ListNode *result, ListNode *l1, ListNode *l2,
-                             int preCarry) {
-    if (l1 == nullptr && l2 == nullptr && preCarry == 0) {
+  void addNumbersRecursion(ListNode *l1, ListNode *l2, ListNode *ans,
+                           int carry) {
+    if (l1 == nullptr && l2 == nullptr && carry == 0) {
       return;
     }
 
-    result->next = new ListNode(preCarry);
-
+    int accumulate = carry;
     if (l1 != nullptr) {
-      result->next->val += l1->val;
+      accumulate += l1->val;
       l1 = l1->next;
     }
 
     if (l2 != nullptr) {
-      result->next->val += l2->val;
+      accumulate += l2->val;
       l2 = l2->next;
     }
+    carry = accumulate / 10;
+    ListNode *temp = new ListNode(accumulate % 10);
+    ans->next = temp;
+    ans = ans->next;
 
-    int carry = result->next->val / 10;
-    result->next->val %= 10;
-    result = result->next;
-
-    addTwoNumbersInternal(result, l1, l2, carry);
+    addNumbersRecursion(l1, l2, ans, carry);
   }
 };
