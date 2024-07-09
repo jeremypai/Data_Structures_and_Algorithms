@@ -33,6 +33,8 @@ $ ctest --output-on-failure
 
 [356. Line Reflection (LeetCode Premium)](https://leetcode.com/problems/line-reflection/description/)
 
+[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) (Amazon, Facebook, …)
+
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
