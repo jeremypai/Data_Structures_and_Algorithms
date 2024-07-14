@@ -1,1 +1,2 @@
 add_subdirectory(dijkstra_algorithm)
+add_subdirectory(bellman_ford_algorithm)
