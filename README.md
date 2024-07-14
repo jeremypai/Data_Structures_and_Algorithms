@@ -38,6 +38,8 @@ $ ctest --output-on-failure
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
+[366. Find Leaves of Binary Tree (LeetCode Premium)](https://leetcode.com/problems/find-leaves-of-binary-tree/description/)
+
 ## Recursion
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) (Apple, Amazon, Microsoft, …)
 
