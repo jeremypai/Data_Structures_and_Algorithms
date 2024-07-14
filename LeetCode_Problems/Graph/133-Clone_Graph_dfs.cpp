@@ -22,7 +22,7 @@ public:
 
 class Solution {
 private:
-  std::unordered_map<int, Node *> hashMap;
+  std::unordered_map<Node *, Node *> hashMap_;
 
 public:
   Node *cloneGraph(Node *node) {
@@ -38,18 +38,17 @@ public:
   }
 
 private:
-  Node *dfs(Node *curNode) {
-    Node *result = new Node(curNode->val);
-    hashMap[curNode->val] = result;
-    for (const auto neighbor : curNode->neighbors) {
-      const auto found = hashMap.find(neighbor->val);
-      if (found != hashMap.end()) {
-        // already visited
-        result->neighbors.emplace_back(found->second);
+  Node *dfs(Node *node) {
+    hashMap_[node] = new Node(node->val);
+    for (const auto neighbor : node->neighbors) {
+      const auto found = hashMap_.find(neighbor);
+      if (found == hashMap_.end()) {
+        hashMap_[node]->neighbors.emplace_back(dfs(neighbor));
       } else {
-        result->neighbors.emplace_back(dfs(neighbor));
+        hashMap_[node]->neighbors.emplace_back(found->second);
       }
     }
-    return result;
+
+    return hashMap_[node];
   }
 };
