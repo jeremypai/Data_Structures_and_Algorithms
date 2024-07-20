@@ -40,6 +40,8 @@ $ ctest --output-on-failure
 
 [366. Find Leaves of Binary Tree (LeetCode Premium)](https://leetcode.com/problems/find-leaves-of-binary-tree/description/)
 
+[207. Course Schedule](https://leetcode.com/problems/course-schedule/description/)
+
 ## Recursion
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) (Apple, Amazon, Microsoft, …)
 
