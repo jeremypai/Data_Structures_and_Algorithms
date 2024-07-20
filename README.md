@@ -44,6 +44,8 @@ $ ctest --output-on-failure
 
 [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)
 
+[839. Similar String Groups](https://leetcode.com/problems/similar-string-groups/description/)
+
 ## Recursion
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) (Apple, Amazon, Microsoft, …)
 
