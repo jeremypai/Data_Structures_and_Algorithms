@@ -1,6 +1,8 @@
-#include "kruskal_algorithm.h"
 #include <gtest/gtest.h>
+
 #include <vector>
+
+#include "kruskal_algorithm.h"
 
 TEST(KruskalAlgorithmTest, BasicTest) {
   int vertexNum = 4;

@@ -1,6 +1,7 @@
+#include <gtest/gtest.h>
+
 #include "Stack_Array.h"
 #include "Stack_LinkedList.h"
-#include <gtest/gtest.h>
 
 TEST(StackArrayTest, SimpleTest) {
   StackArray stack(5);
@@ -9,7 +10,7 @@ TEST(StackArrayTest, SimpleTest) {
   stack.push(3);
   stack.push(4);
   stack.push(5);
-  stack.push(6); // should not be pushed into the stack
+  stack.push(6);  // should not be pushed into the stack
   ASSERT_EQ(stack.top(), 5);
   ASSERT_EQ(stack.size(), 5);
 

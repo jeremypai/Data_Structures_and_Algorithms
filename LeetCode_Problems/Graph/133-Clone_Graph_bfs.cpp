@@ -4,7 +4,7 @@
 
 // Definition for a Node.
 class Node {
-public:
+ public:
   int val;
   std::vector<Node *> neighbors;
   Node() {
@@ -22,7 +22,7 @@ public:
 };
 
 class Solution {
-public:
+ public:
   Node *cloneGraph(Node *node) {
     if (node == nullptr) {
       return nullptr;

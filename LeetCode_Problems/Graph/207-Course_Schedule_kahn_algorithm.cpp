@@ -2,7 +2,7 @@
 #include <vector>
 
 class Solution {
-public:
+ public:
   bool canFinish(int numCourses, std::vector<std::vector<int>> &prerequisites) {
     std::vector<std::vector<int>> adjList(numCourses, std::vector<int>{});
     for (int i = 0; i < prerequisites.size(); ++i) {

@@ -3,7 +3,7 @@
 
 // Definition for a Node.
 class Node {
-public:
+ public:
   int val;
   std::vector<Node *> neighbors;
   Node() {
@@ -21,10 +21,10 @@ public:
 };
 
 class Solution {
-private:
+ private:
   std::unordered_map<Node *, Node *> hashMap_;
 
-public:
+ public:
   Node *cloneGraph(Node *node) {
     if (node == nullptr) {
       return nullptr;
@@ -37,7 +37,7 @@ public:
     return dfs(node);
   }
 
-private:
+ private:
   Node *dfs(Node *node) {
     hashMap_[node] = new Node(node->val);
     for (const auto neighbor : node->neighbors) {

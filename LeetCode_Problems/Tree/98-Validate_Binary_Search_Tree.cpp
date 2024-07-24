@@ -10,10 +10,10 @@ struct TreeNode {
 };
 
 class Solution {
-public:
+ public:
   bool isValidBST(TreeNode *root) { return isValidBSTInternal(root); }
 
-private:
+ private:
   bool isValidBSTInternal(TreeNode *node) {
     if (node == nullptr) {
       return true;

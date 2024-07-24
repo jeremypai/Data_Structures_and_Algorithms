@@ -1,6 +1,8 @@
-#include "tower_of_hanoi.h"
 #include <gtest/gtest.h>
+
 #include <stack>
+
+#include "tower_of_hanoi.h"
 
 TEST(TowerOfHanoiTest, OneLayer) {
   std::stack<int> stackFrom;

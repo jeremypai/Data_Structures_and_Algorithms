@@ -13,7 +13,7 @@ void selectionSort(int array[], int size) {
 
   for (int i = 0; i < size; ++i) {
     int indexMin = i;
-    for (int j = i + 1; j < size ; ++j) {
+    for (int j = i + 1; j < size; ++j) {
       if (array[indexMin] > array[j]) {
         indexMin = j;
       }

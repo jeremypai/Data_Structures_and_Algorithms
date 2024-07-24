@@ -1,7 +1,7 @@
 #include <vector>
 
 class Solution {
-public:
+ public:
   int maxAreaOfIsland(std::vector<std::vector<int>> &grid) {
     if (grid.empty()) {
       return 0;
@@ -22,7 +22,7 @@ public:
     return maxArea;
   }
 
-private:
+ private:
   int searchIslandArea(std::vector<std::vector<int>> &grid, int i, int j) {
     if (grid[i][j] != 1) {
       return 0;

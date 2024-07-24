@@ -1,5 +1,6 @@
-#include "insertion_sort.h"
 #include <gtest/gtest.h>
+
+#include "insertion_sort.h"
 
 TEST(InsertionSortTest, SimpleUnsortedList) {
   int array[] = {5, 2, 9, 1, 5, 6};

@@ -1,28 +1,30 @@
-#include "binary_tree.h"
-#include <array>
 #include <gtest/gtest.h>
-#include <string>
 #include <vcruntime.h>
 
+#include <array>
+#include <string>
+
+#include "binary_tree.h"
+
 class TraverseTest : public testing::Test {
-private:
+ private:
   std::array<int, 15> treeArray = {5,    2, 6,    1,    4,    NULL, 7,   NULL,
                                    NULL, 3, NULL, NULL, NULL, NULL, NULL};
 
   TreeNode *root = nullptr;
 
-public:
+ public:
   TraverseTest() = default;
   ~TraverseTest() = default;
 
   TreeNode *getTree() const { return root; }
 
-protected:
+ protected:
   void SetUp() override { buildTree(); }
 
   void TearDown() override {}
 
-private:
+ private:
   void buildTree() {
     if (treeArray.size() <= 0) {
       return;

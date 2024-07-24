@@ -1,15 +1,15 @@
 #include <string>
 
 class Solution {
-private:
+ private:
   bool oneCharToMiss_ = true;
 
-public:
+ public:
   bool validPalindrome(std::string s) {
     return validPalindromeRecursion(s, 0, s.length() - 1);
   }
 
-private:
+ private:
   bool validPalindromeRecursion(const std::string &s, int begin, int end) {
     int left = begin;
     int right = end;

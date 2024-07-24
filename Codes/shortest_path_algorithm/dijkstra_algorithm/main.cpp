@@ -1,8 +1,9 @@
-#include "dijkstra_algorithm.h"
 #include <iostream>
 #include <limits>
 #include <string>
 #include <vector>
+
+#include "dijkstra_algorithm.h"
 
 int main(int argc, char *argv[]) {
   std::vector<std::vector<Path>> graph(6, std::vector<Path>{});

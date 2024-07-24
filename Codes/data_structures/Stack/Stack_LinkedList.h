@@ -12,11 +12,11 @@ typedef struct Node {
 } Node;
 
 class StackLinkedList {
-private:
+ private:
   Node *list_ = nullptr;
   int size_ = 0;
 
-public:
+ public:
   StackLinkedList() {}
   ~StackLinkedList() {
     while (!empty()) {
@@ -58,4 +58,4 @@ public:
   }
 };
 
-#endif // ! STACK_LINKED_LIST_H_
+#endif  // ! STACK_LINKED_LIST_H_

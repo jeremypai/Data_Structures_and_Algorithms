@@ -3,4 +3,4 @@
 
 void mergeSort(int array[], int low, int high);
 
-#endif // ! MERGE_SORT_H_
+#endif  // ! MERGE_SORT_H_

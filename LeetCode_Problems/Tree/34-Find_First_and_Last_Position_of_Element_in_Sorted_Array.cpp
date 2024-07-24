@@ -1,17 +1,17 @@
 #include <vector>
 
 class Solution {
-private:
+ private:
   std::vector<int> ans = {-1, -1};
 
-public:
+ public:
   std::vector<int> searchRange(std::vector<int> &nums, int target) {
     searchLeftMostValue(nums, target, 0, nums.size() - 1);
     searchRightMostValue(nums, target, 0, nums.size() - 1);
     return ans;
   }
 
-private:
+ private:
   void searchLeftMostValue(const std::vector<int> &nums, int target, int start,
                            int end) {
     if (start > end) {

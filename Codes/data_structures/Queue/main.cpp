@@ -1,6 +1,7 @@
+#include <gtest/gtest.h>
+
 #include "Queue_Array.h"
 #include "Queue_LinkedList.h"
-#include <gtest/gtest.h>
 
 TEST(QueueArrayTest, SimpleTest) {
   QueueArray queue(5);
@@ -9,7 +10,7 @@ TEST(QueueArrayTest, SimpleTest) {
   queue.push(3);
   queue.push(4);
   queue.push(5);
-  queue.push(6); // should not be pushed into the queue
+  queue.push(6);  // should not be pushed into the queue
   ASSERT_EQ(queue.front(), 1);
   ASSERT_EQ(queue.back(), 5);
   ASSERT_EQ(queue.size(), 5);
@@ -25,7 +26,7 @@ TEST(QueueArrayTest, SimpleTest) {
   queue.pop();
   ASSERT_EQ(queue.front(), -1);
   ASSERT_EQ(queue.back(), -1);
-  ASSERT_EQ(queue.size(), 0); 
+  ASSERT_EQ(queue.size(), 0);
 }
 
 TEST(QueueLinkedListTest, SimpleTest) {
@@ -52,5 +53,5 @@ TEST(QueueLinkedListTest, SimpleTest) {
   queue.pop();
   ASSERT_EQ(queue.front(), -1);
   ASSERT_EQ(queue.back(), -1);
-  ASSERT_EQ(queue.size(), 0); 
+  ASSERT_EQ(queue.size(), 0);
 }

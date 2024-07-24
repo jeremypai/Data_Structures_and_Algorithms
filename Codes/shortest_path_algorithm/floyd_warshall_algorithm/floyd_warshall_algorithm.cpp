@@ -4,8 +4,8 @@
 #include <limits>
 #include <vector>
 
-std::vector<std::vector<int>>
-floydWarshall(const std::vector<std::vector<int>> &graph) {
+std::vector<std::vector<int>> floydWarshall(
+    const std::vector<std::vector<int>> &graph) {
   // Initialize distance matrix
   std::vector<std::vector<int>> dist = graph;
 

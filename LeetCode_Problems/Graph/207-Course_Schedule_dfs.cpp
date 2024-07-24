@@ -1,7 +1,7 @@
 #include <vector>
 
 class Solution {
-public:
+ public:
   bool canFinish(int numCourses, std::vector<std::vector<int>> &prerequisites) {
     std::vector<std::vector<int>> adjList(numCourses, std::vector<int>{});
     for (int i = 0; i < prerequisites.size(); ++i) {
@@ -24,7 +24,7 @@ public:
     return true;
   }
 
-private:
+ private:
   void dfs(const std::vector<std::vector<int>> &adjList,
            std::vector<int> &visited, int vertex, bool &isCycle) {
     if (visited[vertex] == 1) {

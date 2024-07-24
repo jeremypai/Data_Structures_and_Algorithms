@@ -9,7 +9,7 @@ struct ListNode {
 };
 
 class Solution {
-public:
+ public:
   ListNode *deleteDuplicates(ListNode *head) {
     ListNode *first = head;
 

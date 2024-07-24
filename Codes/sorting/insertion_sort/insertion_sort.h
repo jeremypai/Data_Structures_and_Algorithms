@@ -3,4 +3,4 @@
 
 void insertionSort(int array[], int size);
 
-#endif // !INSERTION_SORT_H_
+#endif  // !INSERTION_SORT_H_

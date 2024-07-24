@@ -12,12 +12,12 @@ typedef struct Node {
 } Node;
 
 class QueueLinkedList {
-private:
+ private:
   Node *front_ = nullptr;
   Node *back_ = nullptr;
   int size_ = 0;
 
-public:
+ public:
   QueueLinkedList() {}
   ~QueueLinkedList() {
     while (!empty()) {
@@ -77,4 +77,4 @@ public:
   }
 };
 
-#endif // ! QUEUE_LINKED_LIST_H_
+#endif  // ! QUEUE_LINKED_LIST_H_

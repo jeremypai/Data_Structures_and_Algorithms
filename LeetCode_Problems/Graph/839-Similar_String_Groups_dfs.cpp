@@ -2,7 +2,7 @@
 #include <vector>
 
 class Solution {
-public:
+ public:
   int numSimilarGroups(std::vector<std::string> &strs) {
     int ans = 0;
     std::vector<bool> visited(strs.size(), false);
@@ -15,7 +15,7 @@ public:
     return ans;
   }
 
-private:
+ private:
   void dfs(const std::vector<std::string> &strs, std::vector<bool> &visited,
            int index) {
     if (visited[index]) {

@@ -4,12 +4,12 @@
 #include <iostream>
 
 class StackArray {
-private:
+ private:
   int *array_ = nullptr;
   int capacity_ = 0;
   int frontIndex_ = -1;
 
-public:
+ public:
   StackArray(int size = 30) : capacity_(size) { array_ = new int[capacity_]; }
   ~StackArray() { delete[] array_; }
 
@@ -47,4 +47,4 @@ public:
   }
 };
 
-#endif // ! STACK_ARRAY_H_
+#endif  // ! STACK_ARRAY_H_

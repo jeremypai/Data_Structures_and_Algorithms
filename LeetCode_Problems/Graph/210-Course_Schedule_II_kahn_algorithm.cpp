@@ -2,7 +2,7 @@
 #include <vector>
 
 class Solution {
-public:
+ public:
   std::vector<int> findOrder(int numCourses,
                              std::vector<std::vector<int>> &prerequisites) {
     std::vector<std::vector<int>> adjList(numCourses, std::vector<int>{});

@@ -11,4 +11,4 @@ struct Edge {
 
 std::vector<Edge> kruskal(const std::vector<Edge>& edges, int vertexNum);
 
-#endif // !KRUSKAL_ALGORITHM_H_
+#endif  // !KRUSKAL_ALGORITHM_H_

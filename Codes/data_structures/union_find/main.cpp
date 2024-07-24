@@ -1,5 +1,6 @@
-#include "union_find.h"
 #include <gtest/gtest.h>
+
+#include "union_find.h"
 
 TEST(UnionFindTest, BasicTest) {
   UnionFind uf(5);

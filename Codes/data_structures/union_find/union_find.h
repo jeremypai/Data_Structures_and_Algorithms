@@ -4,14 +4,14 @@
 #include <vector>
 
 class UnionFind {
-private:
+ private:
   // store parent nodes
   std::vector<int> parent;
 
   // store tree heights
   std::vector<int> rank;
 
-public:
+ public:
   UnionFind(int n) : parent(n), rank(n, 0) {
     for (int i = 0; i < n; ++i) {
       parent[i] = i;
@@ -48,4 +48,4 @@ public:
   bool isConnected(int x, int y) { return find(x) == find(y); }
 };
 
-#endif // !UNION_FIND_H_
+#endif  // !UNION_FIND_H_

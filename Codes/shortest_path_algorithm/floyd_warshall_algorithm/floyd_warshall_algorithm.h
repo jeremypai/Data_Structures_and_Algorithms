@@ -3,7 +3,7 @@
 
 #include <vector>
 
-std::vector<std::vector<int>>
-floydWarshall(const std::vector<std::vector<int>> &graph);
+std::vector<std::vector<int>> floydWarshall(
+    const std::vector<std::vector<int>> &graph);
 
-#endif // ! FLOYD_WARSHALL_ALGORITHM_H_
+#endif  // ! FLOYD_WARSHALL_ALGORITHM_H_

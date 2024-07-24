@@ -4,13 +4,13 @@
 #include <iostream>
 
 class QueueArray {
-private:
+ private:
   int *array_ = nullptr;
   int capacity_ = 0;
   int front_ = -1;
   int back_ = -1;
 
-public:
+ public:
   QueueArray(int size = 30) : capacity_(size) { array_ = new int[capacity_]; }
   ~QueueArray() { delete[] array_; }
 
@@ -77,4 +77,4 @@ public:
   }
 };
 
-#endif // ! QUEUE_ARRAY_H_
+#endif  // ! QUEUE_ARRAY_H_

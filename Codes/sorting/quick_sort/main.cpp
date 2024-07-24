@@ -1,5 +1,6 @@
-#include "quick_sort.h"
 #include <gtest/gtest.h>
+
+#include "quick_sort.h"
 
 TEST(QuickSortTest, SimpleUnsortedList) {
   int array[] = {5, 2, 9, 1, 5, 6};

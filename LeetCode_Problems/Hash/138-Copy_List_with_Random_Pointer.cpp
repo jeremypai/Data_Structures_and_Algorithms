@@ -2,7 +2,7 @@
 
 // Definition for a Node.
 class Node {
-public:
+ public:
   int val;
   Node *next;
   Node *random;
@@ -15,7 +15,7 @@ public:
 };
 
 class Solution {
-public:
+ public:
   Node *copyRandomList(Node *head) {
     if (head == nullptr) {
       return nullptr;

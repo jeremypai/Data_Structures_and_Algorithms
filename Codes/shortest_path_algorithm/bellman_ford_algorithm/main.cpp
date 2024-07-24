@@ -1,6 +1,7 @@
-#include "bellman_ford_algorithm.h"
 #include <iostream>
 #include <string>
+
+#include "bellman_ford_algorithm.h"
 
 int main(int argc, char *argv[]) {
   std::vector<Edge> edges;

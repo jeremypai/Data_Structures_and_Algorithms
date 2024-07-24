@@ -1,4 +1,5 @@
 #include "merge_sort.h"
+
 #include <vcruntime.h>
 
 void sort(int array[], int low, int mid, int high) {

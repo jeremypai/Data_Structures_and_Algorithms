@@ -1,7 +1,9 @@
 #include "kruskal_algorithm.h"
-#include "union_find.h"
+
 #include <algorithm>
 #include <vector>
+
+#include "union_find.h"
 
 std::vector<Edge> kruskal(const std::vector<Edge> &edges, int vertexNum) {
   std::vector<Edge> edgesCopy = edges;

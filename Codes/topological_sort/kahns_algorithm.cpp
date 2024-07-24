@@ -1,4 +1,5 @@
 #include "kahns_algorithm.h"
+
 #include <iostream>
 #include <queue>
 #include <vector>
@@ -41,4 +42,3 @@ void topologicalSortKahnsAlgorithm(const std::vector<std::vector<int>> &v) {
 
   std::cout << std::endl;
 }
-

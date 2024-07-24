@@ -6,4 +6,4 @@
 void moveTowers(int layer, std::stack<int> &towerFrom,
                 std::stack<int> &towerBuffer, std::stack<int> &towerTo);
 
-#endif // ! TOWER_OF_HANOI_H_
+#endif  // ! TOWER_OF_HANOI_H_

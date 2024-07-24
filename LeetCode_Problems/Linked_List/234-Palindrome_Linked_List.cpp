@@ -10,7 +10,7 @@ struct ListNode {
 };
 
 class Solution {
-public:
+ public:
   bool isPalindrome(ListNode *head) {
     if (head == nullptr) {
       return true;

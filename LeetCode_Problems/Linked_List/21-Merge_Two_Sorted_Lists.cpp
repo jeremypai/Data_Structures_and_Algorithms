@@ -8,7 +8,7 @@ struct ListNode {
 };
 
 class Solution {
-public:
+ public:
   ListNode *mergeTwoLists(ListNode *list1, ListNode *list2) {
     if (list1 == nullptr && list2 == nullptr) {
       return nullptr;

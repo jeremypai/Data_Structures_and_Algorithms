@@ -27,7 +27,7 @@ void TopologicalSortDfsReverse::topologicalSort(
 
     int vertex = s_.top();
     s_.pop();
-    std::cout << vertex << " "; 
+    std::cout << vertex << " ";
   }
   std::cout << std::endl;
 }

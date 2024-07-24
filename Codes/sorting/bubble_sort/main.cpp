@@ -1,5 +1,6 @@
-#include "bubble_sort.h"
 #include <gtest/gtest.h>
+
+#include "bubble_sort.h"
 
 TEST(BubbleSortTest, SimpleUnsortedList) {
   int array[] = {5, 2, 9, 1, 5, 6};

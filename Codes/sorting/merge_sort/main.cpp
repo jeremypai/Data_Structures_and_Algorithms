@@ -1,5 +1,6 @@
-#include "merge_sort.h"
 #include <gtest/gtest.h>
+
+#include "merge_sort.h"
 
 TEST(MergeSortTest, SimpleUnsortedList) {
   int array[] = {5, 2, 9, 1, 5, 6};

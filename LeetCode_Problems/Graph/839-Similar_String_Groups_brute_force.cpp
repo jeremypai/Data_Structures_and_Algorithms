@@ -2,7 +2,7 @@
 #include <vector>
 
 class Solution {
-public:
+ public:
   int numSimilarGroups(std::vector<std::string> &strs) {
     std::vector<std::vector<std::string>> groups;
     for (const auto &str : strs) {

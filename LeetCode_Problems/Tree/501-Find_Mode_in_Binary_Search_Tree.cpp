@@ -12,19 +12,19 @@ struct TreeNode {
 };
 
 class Solution {
-private:
+ private:
   std::vector<int> maxModes_;
   int prev_ = 0;
   int curCount_ = 0;
   int maxCount_ = 0;
 
-public:
+ public:
   std::vector<int> findMode(TreeNode *root) {
     traverse(root);
     return maxModes_;
   }
 
-private:
+ private:
   void traverse(TreeNode *node) {
     if (node == nullptr) {
       return;

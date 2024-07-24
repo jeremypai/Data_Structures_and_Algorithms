@@ -1,10 +1,10 @@
 #include <vector>
 
 class Solution {
-private:
+ private:
   int k_ = 0;
 
-public:
+ public:
   int minEatingSpeed(std::vector<int> &piles, int h) {
     int maxPile = 0;
     for (const auto pile : piles) {

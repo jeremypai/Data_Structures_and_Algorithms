@@ -13,4 +13,4 @@ struct Edge {
 std::vector<int> bellmanFord(const std::vector<Edge> &edges, int vertexNum,
                              int start);
 
-#endif // ! BELLMAN_FORD_ALGORITHM_H_
+#endif  // ! BELLMAN_FORD_ALGORITHM_H_

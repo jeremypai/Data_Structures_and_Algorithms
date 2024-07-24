@@ -1,5 +1,6 @@
-#include "selection_sort.h"
 #include <gtest/gtest.h>
+
+#include "selection_sort.h"
 
 TEST(SelectionSortTest, SimpleUnsortedList) {
   int array[] = {5, 2, 9, 1, 5, 6};

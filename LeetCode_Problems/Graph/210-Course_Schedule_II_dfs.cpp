@@ -2,7 +2,7 @@
 #include <vector>
 
 class Solution {
-public:
+ public:
   std::vector<int> findOrder(int numCourses,
                              std::vector<std::vector<int>> &prerequisites) {
     std::vector<std::vector<int>> adjList(numCourses, std::vector<int>{});
@@ -39,7 +39,7 @@ public:
     return ans;
   }
 
-private:
+ private:
   void dfs(std::stack<int> &s, const std::vector<std::vector<int>> &adjList,
            std::vector<int> &visited, int vertex, bool &isCycle) {
     if (visited[vertex] == 1) {

@@ -3,4 +3,4 @@
 
 void selectionSort(int array[], int size);
 
-#endif // !SELECTION_SORT_H_
+#endif  // !SELECTION_SORT_H_

@@ -1,7 +1,7 @@
 #include <string>
 
 class Solution {
-public:
+ public:
   int strStr(std::string haystack, std::string needle) {
     if (haystack.empty()) {
       return -1;

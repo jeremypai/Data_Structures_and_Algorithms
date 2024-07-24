@@ -1,7 +1,7 @@
-#include "dfs_reverse.h"
-#include "kahns_algorithm.h"
 #include <vector>
 
+#include "dfs_reverse.h"
+#include "kahns_algorithm.h"
 
 int main(int argc, char *argv[]) {
   std::vector<std::vector<int>> v(6, std::vector<int>{});

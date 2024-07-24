@@ -1,8 +1,9 @@
 #ifndef BINARY_TREE_H_
 #define BINARY_TREE_H_
 
-#include "gtest/gtest.h"
 #include <string>
+
+#include "gtest/gtest.h"
 
 struct TreeNode {
   int val;
@@ -28,4 +29,4 @@ void dfsRightPostOrderTraversal(TreeNode *node, std::string &res);
 
 void bfsTraversal(TreeNode *node, std::string &res);
 
-#endif // ! BINARY_TREE_H_
+#endif  // ! BINARY_TREE_H_

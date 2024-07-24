@@ -2,7 +2,7 @@
 #include <unordered_map>
 
 class Solution {
-public:
+ public:
   bool isIsomorphic(std::string s, std::string t) {
     if (s.length() != t.length()) {
       return false;
@@ -10,7 +10,7 @@ public:
     return checkIsIsomorphic(s, t) && checkIsIsomorphic(t, s);
   }
 
-private:
+ private:
   bool checkIsIsomorphic(const std::string &s1, const std::string &s2) {
     std::unordered_map<char, char> hashMap;
     for (int i = 0; i < s1.length(); ++i) {

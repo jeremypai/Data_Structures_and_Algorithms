@@ -2,7 +2,7 @@
 #include <string>
 
 class Solution {
-public:
+ public:
   bool isValid(std::string s) {
     std::stack<char> stack;
 

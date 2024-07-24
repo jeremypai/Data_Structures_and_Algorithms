@@ -11,10 +11,10 @@ struct TreeNode {
 };
 
 class Solution {
-public:
+ public:
   bool isSameTree(TreeNode *p, TreeNode *q) { return isSameTreeInternal(p, q); }
 
-private:
+ private:
   bool isSameTreeInternal(TreeNode *p, TreeNode *q) {
     if ((p != nullptr) && (q == nullptr)) {
       return false;

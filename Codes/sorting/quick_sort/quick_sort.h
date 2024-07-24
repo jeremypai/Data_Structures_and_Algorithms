@@ -3,4 +3,4 @@
 
 void quickSort(int array[], int low, int high);
 
-#endif // ! QUICK_SORT_H_
+#endif  // ! QUICK_SORT_H_

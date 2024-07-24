@@ -1,7 +1,7 @@
 #include <string>
 
 class Solution {
-public:
+ public:
   bool repeatedSubstringPattern(std::string s) {
     if (s.empty()) {
       return false;

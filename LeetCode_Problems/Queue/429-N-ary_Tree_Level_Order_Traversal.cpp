@@ -4,7 +4,7 @@
 
 // Definition for a Node.
 class Node {
-public:
+ public:
   int val;
   std::vector<Node *> children;
 
@@ -19,7 +19,7 @@ public:
 };
 
 class Solution {
-public:
+ public:
   std::vector<std::vector<int>> levelOrder(Node *root) {
     if (root == nullptr) {
       return {};

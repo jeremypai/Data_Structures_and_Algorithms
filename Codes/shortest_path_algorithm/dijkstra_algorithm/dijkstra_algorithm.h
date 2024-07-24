@@ -14,4 +14,4 @@ struct Path {
 std::vector<int> dijkstra(const std::vector<std::vector<Path>> &graph,
                           int start);
 
-#endif // ! DIJKSTRA_ALGORITHM_H_
+#endif  // ! DIJKSTRA_ALGORITHM_H_

@@ -5,12 +5,12 @@
 #include <vector>
 
 class UnionFind {
-private:
+ private:
   std::unordered_map<int, int> parent;
   std::unordered_map<int, int> islandAreaSet;
   int maxArea = 0;
 
-public:
+ public:
   UnionFind() = default;
   ~UnionFind() = default;
 
@@ -49,4 +49,4 @@ public:
   int getMaxArea() const { return maxArea; }
 };
 
-#endif // ! UNION_FIND_WITH_STATES_H_
+#endif  // ! UNION_FIND_WITH_STATES_H_

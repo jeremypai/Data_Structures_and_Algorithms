@@ -9,7 +9,7 @@ struct ListNode {
 };
 
 class Solution {
-public:
+ public:
   ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
     // dummy head
     ListNode *ans = new ListNode(0);
@@ -18,7 +18,7 @@ public:
     return ans->next;
   }
 
-private:
+ private:
   void addNumbersRecursion(ListNode *l1, ListNode *l2, ListNode *ans,
                            int carry) {
     if (l1 == nullptr && l2 == nullptr && carry == 0) {
