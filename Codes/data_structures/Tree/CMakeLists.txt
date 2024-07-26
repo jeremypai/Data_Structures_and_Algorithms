@@ -11,3 +11,5 @@ target_link_libraries(${PROJECT_NAME}
     PRIVATE GTest::gtest_main)
 
 gtest_discover_tests(${PROJECT_NAME})
+
+add_subdirectory(binary_search_tree)
