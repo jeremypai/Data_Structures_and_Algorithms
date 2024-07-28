@@ -2,41 +2,42 @@
 #define MINIMUM_SPANNING_TREE_WITH_UNION_FIND_H_
 
 #include <algorithm>
-#include <unordered_map>
 #include <vector>
 
 #include "union_find.h"
 
-struct Edge {
+struct MSTWithUnionFindEdge {
   int src;
   int dest;
   int weight;
 };
 
-class Graph {
+class MSTWithUnionFind {
  private:
-  std::vector<Edge> edgeList_;
+  std::vector<MSTWithUnionFindEdge> edgeList_;
   int vertexNum_ = 0;
 
  public:
-  Graph(int v) : vertexNum_(v) {}
-  ~Graph() = default;
+  MSTWithUnionFind(int v) : vertexNum_(v) {}
+  ~MSTWithUnionFind() = default;
 
   void addEdge(int u, int v, int w) {
     // u = src, v = dest, w = weight
-    Edge edge = {u, v, w};
+    MSTWithUnionFindEdge edge = {u, v, w};
     edgeList_.emplace_back(edge);
   }
 
-  std::vector<Edge> kruskalMST() {
+  std::vector<MSTWithUnionFindEdge> kruskalMST() {
     // Sort edges in non-decreasing order of weight
     std::sort(edgeList_.begin(), edgeList_.end(),
-              [](Edge x, Edge y) { return x.weight < y.weight; });
+              [](MSTWithUnionFindEdge x, MSTWithUnionFindEdge y) {
+                return x.weight < y.weight;
+              });
 
     // Initialize Union-Find
     UnionFind uf(vertexNum_);
 
-    std::vector<Edge> ans;
+    std::vector<MSTWithUnionFindEdge> ans;
     for (const auto& edge : edgeList_) {
       const auto& src = edge.src;
       const auto& dest = edge.dest;
