@@ -2,6 +2,7 @@
 #define KRUSKAL_ALGORITHM_H_
 
 #include <algorithm>
+#include <unordered_map>
 #include <vector>
 
 #include "union_find.h"
@@ -12,30 +13,44 @@ struct Edge {
   int weight;
 };
 
-inline std::vector<Edge> kruskal(const std::vector<Edge> &edges,
-                                 int vertexNum) {
-  std::vector<Edge> edgesCopy = edges;
+class Graph {
+ private:
+  std::vector<Edge> edgeList_;
+  int vertexNum_ = 0;
 
-  // Sort edges in non-decreasing order of weight
-  std::sort(edgesCopy.begin(), edgesCopy.end(),
-            [](Edge x, Edge y) { return x.weight < y.weight; });
+ public:
+  Graph(int v) : vertexNum_(v) {}
+  ~Graph() = default;
 
-  UnionFind uf(vertexNum);
-
-  std::vector<Edge> ans;
-  for (const auto &edge : edgesCopy) {
-    const auto &src = edge.src;
-    const auto &dest = edge.dest;
-
-    if (uf.isConnected(src, dest)) {
-      continue;
-    }
-
-    uf.unite(src, dest);
-    ans.emplace_back(edge);
+  void addEdge(int u, int v, int w) {
+    // u = src, v = dest, w = weight
+    Edge edge = {u, v, w};
+    edgeList_.emplace_back(edge);
   }
 
-  return ans;
-}
+  std::vector<Edge> kruskalMST() {
+    // Sort edges in non-decreasing order of weight
+    std::sort(edgeList_.begin(), edgeList_.end(),
+              [](Edge x, Edge y) { return x.weight < y.weight; });
+
+    // Initialize Union-Find
+    UnionFind uf(vertexNum_);
+
+    std::vector<Edge> ans;
+    for (const auto& edge : edgeList_) {
+      const auto& src = edge.src;
+      const auto& dest = edge.dest;
+
+      if (uf.isConnected(src, dest)) {
+        continue;
+      }
+
+      uf.unite(src, dest);
+      ans.emplace_back(edge);
+    }
+
+    return ans;
+  }
+};
 
 #endif  // !KRUSKAL_ALGORITHM_H_
