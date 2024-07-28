@@ -2,9 +2,9 @@
 
 #include <vector>
 
-#include "kruskal_algorithm.h"
+#include "minimum_spanning_tree_with_union_find.h"
 
-TEST(KruskalAlgorithmTest, BasicTest) {
+TEST(MinimumSpanningTreeWithUnionFindTest, KruskalAlgorithmTest) {
   int vertexNum = 4;
   Graph g(vertexNum);
   g.addEdge(0, 1, 10);

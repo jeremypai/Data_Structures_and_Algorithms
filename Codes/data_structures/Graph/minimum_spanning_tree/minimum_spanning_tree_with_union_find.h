@@ -1,5 +1,5 @@
-#ifndef KRUSKAL_ALGORITHM_H_
-#define KRUSKAL_ALGORITHM_H_
+#ifndef MINIMUM_SPANNING_TREE_WITH_UNION_FIND_H_
+#define MINIMUM_SPANNING_TREE_WITH_UNION_FIND_H_
 
 #include <algorithm>
 #include <unordered_map>
@@ -53,4 +53,4 @@ class Graph {
   }
 };
 
-#endif  // !KRUSKAL_ALGORITHM_H_
+#endif  // !MINIMUM_SPANNING_TREE_WITH_UNION_FIND_H_
