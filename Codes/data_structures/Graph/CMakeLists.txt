@@ -1,1 +1,2 @@
 add_subdirectory(detect_cycle)
+add_subdirectory(minimum_spanning_tree)
