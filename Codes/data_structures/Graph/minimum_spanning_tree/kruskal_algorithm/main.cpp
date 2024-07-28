@@ -2,12 +2,12 @@
 
 #include <vector>
 
-#include "minimum_spanning_tree.h"
-#include "minimum_spanning_tree_with_union_find.h"
+#include "kruskal_algorithm.h"
+#include "kruskal_algorithm_with_union_find.h"
 
-TEST(MinimumSpanningTreeTest, KruskalAlgorithmTest) {
+TEST(MSTKruskalAlgorithmTest, SimpleTest) {
   int vertexNum = 4;
-  MST g(vertexNum);
+  KruskalMST g(vertexNum);
   g.addEdge(0, 1, 10);
   g.addEdge(0, 2, 6);
   g.addEdge(0, 3, 5);
@@ -22,9 +22,9 @@ TEST(MinimumSpanningTreeTest, KruskalAlgorithmTest) {
   ASSERT_EQ(totalWeight, 19);
 }
 
-TEST(MinimumSpanningTreeWithUnionFindTest, KruskalAlgorithmTest) {
+TEST(MSTKruskalAlgorithmWithUnionFindTest, SimpleTest) {
   int vertexNum = 4;
-  MSTWithUnionFind g(vertexNum);
+  KruskalMSTWithUnionFind g(vertexNum);
   g.addEdge(0, 1, 10);
   g.addEdge(0, 2, 6);
   g.addEdge(0, 3, 5);

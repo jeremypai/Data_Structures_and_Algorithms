@@ -1,5 +1,5 @@
-#ifndef MINIMUM_SPANNING_TREE_WITH_UNION_FIND_H_
-#define MINIMUM_SPANNING_TREE_WITH_UNION_FIND_H_
+#ifndef KRUSKAL_ALGORITHM_WITH_UNION_FIND_H_
+#define KRUSKAL_ALGORITHM_WITH_UNION_FIND_H_
 
 #include <algorithm>
 #include <vector>
@@ -12,14 +12,14 @@ struct MSTWithUnionFindEdge {
   int weight;
 };
 
-class MSTWithUnionFind {
+class KruskalMSTWithUnionFind {
  private:
   std::vector<MSTWithUnionFindEdge> edgeList_;
   int vertexNum_ = 0;
 
  public:
-  MSTWithUnionFind(int v) : vertexNum_(v) {}
-  ~MSTWithUnionFind() = default;
+  KruskalMSTWithUnionFind(int v) : vertexNum_(v) {}
+  ~KruskalMSTWithUnionFind() = default;
 
   void addEdge(int u, int v, int w) {
     // u = src, v = dest, w = weight
@@ -54,4 +54,4 @@ class MSTWithUnionFind {
   }
 };
 
-#endif  // !MINIMUM_SPANNING_TREE_WITH_UNION_FIND_H_
+#endif  // !KRUSKAL_ALGORITHM_WITH_UNION_FIND_H_

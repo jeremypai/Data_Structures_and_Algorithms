@@ -1,5 +1,5 @@
-#ifndef MINIMUM_SPANNING_TREE_H_
-#define MINIMUM_SPANNING_TREE_H_
+#ifndef KRUSKAL_ALGORITHM_H_
+#define KRUSKAL_ALGORITHM_H_
 
 #include <algorithm>
 #include <vector>
@@ -10,14 +10,14 @@ struct MSTEdge {
   int weight;
 };
 
-class MST {
+class KruskalMST {
  private:
   std::vector<MSTEdge> edgeList_;
   std::vector<bool> inMST_;
 
  public:
-  MST(int v) : inMST_(v, false) {}
-  ~MST() = default;
+  KruskalMST(int v) : inMST_(v, false) {}
+  ~KruskalMST() = default;
 
   void addEdge(int u, int v, int w) {
     MSTEdge edge = {u, v, w};
@@ -48,4 +48,4 @@ class MST {
   }
 };
 
-#endif  // !MINIMUM_SPANNING_TREE_H_
+#endif  // !KRUSKAL_ALGORITHM_H_
