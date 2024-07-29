@@ -1,1 +1,2 @@
 add_subdirectory(kruskal_algorithm)
+add_subdirectory(prim_algorithm)
