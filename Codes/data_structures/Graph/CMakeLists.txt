@@ -1,3 +1,4 @@
 add_subdirectory(detect_cycle)
 add_subdirectory(minimum_spanning_tree)
 add_subdirectory(shortest_path_algorithm)
+add_subdirectory(topological_sort)
