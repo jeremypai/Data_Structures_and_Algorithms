@@ -54,6 +54,8 @@ $ ctest --output-on-failure
 ## Linked List
 [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
+[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+
 [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
 
 [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) (Microsoft, Amazon, …)
