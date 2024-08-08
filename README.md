@@ -15,6 +15,17 @@ $ cd build
 $ ctest --output-on-failure
 ```
 
+## Linked List
+[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
+
+[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+
+[83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
+
+[234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) (Microsoft, Amazon, …)
+
 ## Tree
 [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
 
@@ -50,17 +61,6 @@ $ ctest --output-on-failure
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) (Apple, Amazon, Microsoft, …)
 
 [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) (Google, Facebook, …)
-
-## Linked List
-[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-
-[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
-
-[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
-
-[83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
-
-[234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) (Microsoft, Amazon, …)
 
 ## Two Pointers
 [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) (Facebook, …)
