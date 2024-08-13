@@ -28,6 +28,9 @@ $ ctest --output-on-failure
 
 [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) (Microsoft, Amazon, …)
 
+## Stack
+[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
+
 ## Tree
 [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
 
@@ -73,9 +76,6 @@ $ ctest --output-on-failure
 [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
 [459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
-
-## Stack
-[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
 
 ## Queue
 [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)
