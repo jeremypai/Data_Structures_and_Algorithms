@@ -35,6 +35,8 @@ $ ctest --output-on-failure
 [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)
 
 ## Hash
+[1. Two Sum](https://leetcode.com/problems/two-sum/description/)
+
 [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
 
 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
