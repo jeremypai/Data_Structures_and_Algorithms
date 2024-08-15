@@ -37,6 +37,8 @@ $ ctest --output-on-failure
 ## Hash
 [1. Two Sum](https://leetcode.com/problems/two-sum/description/)
 
+[349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)
+
 [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
 
 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
