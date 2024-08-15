@@ -31,6 +31,18 @@ $ ctest --output-on-failure
 ## Stack
 [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
 
+## Queue
+[429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)
+
+## Hash
+[205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
+
+[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
+
+[356. Line Reflection (LeetCode Premium)](https://leetcode.com/problems/line-reflection/description/)
+
+[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) (Amazon, Facebook, …)
+
 ## Tree
 [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
 
@@ -41,15 +53,6 @@ $ ctest --output-on-failure
 [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
 
 [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/)
-
-## Hash
-[205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
-
-[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
-
-[356. Line Reflection (LeetCode Premium)](https://leetcode.com/problems/line-reflection/description/)
-
-[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) (Amazon, Facebook, …)
 
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
@@ -76,6 +79,3 @@ $ ctest --output-on-failure
 [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
 [459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
-
-## Queue
-[429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)
