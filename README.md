@@ -41,6 +41,8 @@ $ ctest --output-on-failure
 
 [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)
 
+[169. Majority Element](https://leetcode.com/problems/majority-element/description/)
+
 [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
 
 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
