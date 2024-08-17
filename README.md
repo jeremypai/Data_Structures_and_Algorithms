@@ -52,6 +52,8 @@ $ ctest --output-on-failure
 [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) (Amazon, Facebook, …)
 
 ## Tree
+[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
+
 [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
 
 [100. Same Tree](https://leetcode.com/problems/same-tree/description/)
