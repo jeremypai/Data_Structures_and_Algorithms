@@ -1,5 +1,4 @@
 #include <queue>
-#include <utility>
 
 // Definition for a binary tree node.
 struct TreeNode {
@@ -29,25 +28,29 @@ class SolutionDFS {
 class SolutionBFS {
  public:
   int maxDepth(TreeNode *root) {
-    std::queue<std::pair<TreeNode *, int>> q;
-    q.push({root, 1});
-
-    int maxDepthLen = 0;
-    while (!q.empty()) {
-      std::pair<TreeNode *, int> node = q.front();
-      q.pop();
-      if (node.first == nullptr) {
-        continue;
-      }
-
-      if (node.second > maxDepthLen) {
-        maxDepthLen = node.second;
-      }
-
-      q.push({node.first->left, node.second + 1});
-      q.push({node.first->right, node.second + 1});
+    if (root == nullptr) {
+      return 0;
     }
 
-    return maxDepthLen;
+    std::queue<TreeNode *> q;
+    q.push(root);
+    int depth = 0;
+    while (!q.empty()) {
+      ++depth;
+      int curLevelSize = q.size();
+      for (int i = 0; i < curLevelSize; ++i) {
+        TreeNode *curNode = q.front();
+        q.pop();
+
+        if (curNode->left) {
+          q.push(curNode->left);
+        }
+
+        if (curNode->right) {
+          q.push(curNode->right);
+        }
+      }
+    }
+    return depth;
   }
 };
