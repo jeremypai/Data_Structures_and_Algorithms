@@ -71,6 +71,8 @@ $ ctest --output-on-failure
 ## Binary Search
 [704. Binary Search](https://leetcode.com/problems/binary-search/description/)
 
+[35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
+
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
