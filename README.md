@@ -64,14 +64,14 @@ $ ctest --output-on-failure
 
 [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)
 
-[34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
-
 [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/)
 
 ## Binary Search
 [704. Binary Search](https://leetcode.com/problems/binary-search/description/)
 
 [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
+
+[34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
 
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
