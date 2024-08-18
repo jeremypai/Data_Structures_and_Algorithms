@@ -68,6 +68,9 @@ $ ctest --output-on-failure
 
 [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/)
 
+## Binary Search
+[704. Binary Search](https://leetcode.com/problems/binary-search/description/)
+
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
