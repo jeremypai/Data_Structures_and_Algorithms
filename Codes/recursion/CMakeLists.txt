@@ -1,0 +1,1 @@
+add_subdirectory(tower_of_hanoi)

@@ -1,9 +1,11 @@
-#include "tower_of_hanoi.h"
+#ifndef TOWER_OF_HANOI_H_
+#define TOWER_OF_HANOI_H_
 
 #include <iostream>
+#include <stack>
 
-void moveTowers(int layer, std::stack<int> &towerFrom,
-                std::stack<int> &towerBuffer, std::stack<int> &towerTo) {
+inline void moveTowers(int layer, std::stack<int> &towerFrom,
+                       std::stack<int> &towerBuffer, std::stack<int> &towerTo) {
   if (layer <= 0) {
     std::cout << "Error of layer number to solve Tower of Hanoi" << std::endl;
     return;
@@ -28,3 +30,5 @@ void moveTowers(int layer, std::stack<int> &towerFrom,
   // buffer
   moveTowers(layer - 1, towerBuffer, towerFrom, towerTo);
 }
+
+#endif  // ! TOWER_OF_HANOI_H_
