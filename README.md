@@ -73,6 +73,9 @@ $ ctest --output-on-failure
 
 [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/)
 
+## Sorting
+[912. Sort an Array](https://leetcode.com/problems/sort-an-array/description/) -> Practice Quick Sort and Merge Sort
+
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
