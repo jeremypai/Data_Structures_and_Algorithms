@@ -76,6 +76,11 @@ $ ctest --output-on-failure
 ## Sorting
 [912. Sort an Array](https://leetcode.com/problems/sort-an-array/description/) -> Practice Quick Sort and Merge Sort
 
+## Recursion
+[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) (Apple, Amazon, Microsoft, …)
+
+[695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) (Google, Facebook, …)
+
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
@@ -86,11 +91,6 @@ $ ctest --output-on-failure
 [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)
 
 [839. Similar String Groups](https://leetcode.com/problems/similar-string-groups/description/)
-
-## Recursion
-[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) (Apple, Amazon, Microsoft, …)
-
-[695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) (Google, Facebook, …)
 
 ## Two Pointers
 [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) (Facebook, …)
