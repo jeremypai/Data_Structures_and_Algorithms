@@ -79,6 +79,8 @@ $ ctest --output-on-failure
 ## Recursion
 [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)
 
+[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)
+
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) (Apple, Amazon, Microsoft, …)
 
 [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) (Google, Facebook, …)
