@@ -88,6 +88,8 @@ $ ctest --output-on-failure
 [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) (Google, Facebook, …)
 
 ## Two Pointer
+[167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
+
 [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) (Facebook, …)
 
 ## Graph
