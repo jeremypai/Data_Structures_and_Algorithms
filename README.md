@@ -87,6 +87,9 @@ $ ctest --output-on-failure
 
 [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) (Google, Facebook, …)
 
+## Two Pointer
+[680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) (Facebook, …)
+
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
@@ -97,9 +100,6 @@ $ ctest --output-on-failure
 [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)
 
 [839. Similar String Groups](https://leetcode.com/problems/similar-string-groups/description/)
-
-## Two Pointers
-[680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) (Facebook, …)
 
 ## String
 [67. Add Binary](https://leetcode.com/problems/add-binary/description/)
