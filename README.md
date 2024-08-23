@@ -98,6 +98,8 @@ $ ctest --output-on-failure
 
 [15. 3Sum](https://leetcode.com/problems/3sum/description/)
 
+[16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/description/)
+
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
