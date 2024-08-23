@@ -96,6 +96,8 @@ $ ctest --output-on-failure
 
 [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) (Facebook, …)
 
+[15. 3Sum](https://leetcode.com/problems/3sum/description/)
+
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
