@@ -103,12 +103,14 @@ $ ctest --output-on-failure
 ## Sliding Window
 [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
 
+[340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/) (LeetCode Premium)
+
 [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)
 
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
-[366. Find Leaves of Binary Tree (LeetCode Premium)](https://leetcode.com/problems/find-leaves-of-binary-tree/description/)
+[366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/description/) (LeetCode Premium)
 
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/description/)
 
