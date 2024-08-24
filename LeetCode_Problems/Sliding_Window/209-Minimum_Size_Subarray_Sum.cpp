@@ -35,10 +35,10 @@ class SolutionPrefixSumWithBinarySearch {
     for (int i = 0; i < psum.size(); ++i) {
       const auto lower =
           std::lower_bound(psum.begin() + i, psum.end(), target + psum[i]);
-      int lowerIndex = std::distance(psum.begin(), lower);
-      if (lowerIndex >= psum.size()) {
+      if (lower == psum.end()) {
         break;
       }
+      int lowerIndex = std::distance(psum.begin(), lower);
       minLength = std::min(minLength, lowerIndex - i);
     }
     return minLength != std::numeric_limits<int>::max() ? minLength : 0;
