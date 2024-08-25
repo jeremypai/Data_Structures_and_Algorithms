@@ -119,6 +119,8 @@ $ ctest --output-on-failure
 ## Greedy
 [455. Assign Cookies](https://leetcode.com/problems/assign-cookies/description/)
 
+[2410. Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/)
+
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
