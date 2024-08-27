@@ -32,6 +32,8 @@ $ ctest --output-on-failure
 [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
 
 ## Queue
+[225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)
+
 [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)
 
 ## Hash
