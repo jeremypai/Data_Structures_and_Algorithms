@@ -36,6 +36,8 @@ $ ctest --output-on-failure
 
 [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)
 
+[622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)
+
 [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)
 
 ## Hash
