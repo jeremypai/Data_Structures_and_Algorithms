@@ -132,6 +132,8 @@ $ ctest --output-on-failure
 ## Bit Manipulation
 [338. Counting Bits](https://leetcode.com/problems/counting-bits/description/)
 
+[136. Single Number](https://leetcode.com/problems/single-number/description/)
+
 ## Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
