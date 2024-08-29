@@ -96,6 +96,8 @@ $ ctest --output-on-failure
 [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) (Google, Facebook, …)
 
 ## Two Pointer
+[344. Reverse String](https://leetcode.com/problems/reverse-string/description/)
+
 [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
 [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
