@@ -112,6 +112,8 @@ $ ctest --output-on-failure
 
 [75. Sort Colors](https://leetcode.com/problems/sort-colors/description/)
 
+[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
+
 ## Sliding Window
 [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
 
