@@ -1,7 +1,9 @@
 #include <string>
 #include <unordered_set>
 
-class Solution {
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+class SolutionSlidingWindowWithHashSet {
  public:
   int lengthOfLongestSubstring(std::string s) {
     if (s.empty()) {
@@ -22,5 +24,26 @@ class Solution {
     }
 
     return maxLength;
+  }
+};
+
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
+class SolutionSlidingWindowWithSubStr {
+ public:
+  int lengthOfLongestSubstring(std::string s) {
+    int ans = 0;
+    int left = 0;
+    for (int right = 0; right < s.length(); ++right) {
+      while (left < right) {
+        std::string subStr = s.substr(left, right - left);
+        if (subStr.find(s[right]) == std::string::npos) {
+          break;
+        }
+        ++left;
+      }
+      ans = std::max(ans, right - left + 1);
+    }
+    return ans;
   }
 };
