@@ -30,10 +30,6 @@ class Solution {
       buffer.pop();
     }
 
-    if (!buffer.empty()) {
-      return false;
-    }
-
-    return true;
+    return buffer.empty();
   }
 };
