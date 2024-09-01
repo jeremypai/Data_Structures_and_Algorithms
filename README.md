@@ -81,6 +81,8 @@ $ ctest --output-on-failure
 
 [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/)
 
+[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+
 ## Sorting
 [912. Sort an Array](https://leetcode.com/problems/sort-an-array/description/) -> Practice Quick Sort and Merge Sort
 
