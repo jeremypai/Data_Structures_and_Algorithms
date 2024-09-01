@@ -174,3 +174,5 @@ $ ctest --output-on-failure
 [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
 [31. Next Permutation](https://leetcode.com/problems/next-permutation/description/)
+
+[621. Task Scheduler](https://leetcode.com/problems/task-scheduler/description/)
