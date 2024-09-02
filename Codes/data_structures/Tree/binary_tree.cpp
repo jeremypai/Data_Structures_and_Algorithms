@@ -73,19 +73,16 @@ void bfsTraversal(TreeNode *node, std::string &res) {
   q.push(node);
 
   while (!q.empty()) {
-    int curLevelSize = q.size();
-    for (int i = 0; i < curLevelSize; ++i) {
-      TreeNode *curNode = q.front();
-      q.pop();
-      res = res + std::to_string(curNode->val) + " ";
+    TreeNode *curNode = q.front();
+    q.pop();
+    res = res + std::to_string(curNode->val) + " ";
 
-      if (curNode->left) {
-        q.push(curNode->left);
-      }
+    if (curNode->left) {
+      q.push(curNode->left);
+    }
 
-      if (curNode->right) {
-        q.push(curNode->right);
-      }
+    if (curNode->right) {
+      q.push(curNode->right);
     }
   }
 }
