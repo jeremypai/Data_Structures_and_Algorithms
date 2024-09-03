@@ -15,7 +15,8 @@ $ cd build
 $ ctest --output-on-failure
 ```
 
-## Linked List
+## Data Structure
+### Linked List
 [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
@@ -28,10 +29,10 @@ $ ctest --output-on-failure
 
 [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) (Microsoft, Amazon, …)
 
-## Stack
+### Stack
 [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
 
-## Queue
+### Queue
 [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)
 
 [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)
@@ -40,7 +41,7 @@ $ ctest --output-on-failure
 
 [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)
 
-## Hash
+### Hash
 [1. Two Sum](https://leetcode.com/problems/two-sum/description/)
 
 [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)
@@ -59,7 +60,14 @@ $ ctest --output-on-failure
 
 [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 
-## Tree
+### String
+[67. Add Binary](https://leetcode.com/problems/add-binary/description/)
+
+[28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+
+[459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
+
+### Tree
 [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
 
 [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
@@ -72,7 +80,19 @@ $ ctest --output-on-failure
 
 [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)
 
-## Binary Search
+### Graph
+[133. Clone Graph](https://leetcode.com/problems/clone-graph/)
+
+[366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/description/) (LeetCode Premium)
+
+[207. Course Schedule](https://leetcode.com/problems/course-schedule/description/)
+
+[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)
+
+[839. Similar String Groups](https://leetcode.com/problems/similar-string-groups/description/)
+
+## Algorithms
+### Binary Search
 [704. Binary Search](https://leetcode.com/problems/binary-search/description/)
 
 [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
@@ -83,10 +103,10 @@ $ ctest --output-on-failure
 
 [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
 
-## Sorting
+### Sorting
 [912. Sort an Array](https://leetcode.com/problems/sort-an-array/description/) -> Practice Quick Sort and Merge Sort
 
-## Recursion
+### Recursion
 [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)
 
 [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)
@@ -97,7 +117,7 @@ $ ctest --output-on-failure
 
 [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) (Google, Facebook, …)
 
-## Two Pointer
+### Two Pointer
 [344. Reverse String](https://leetcode.com/problems/reverse-string/description/)
 
 [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
@@ -116,7 +136,7 @@ $ ctest --output-on-failure
 
 [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
 
-## Sliding Window
+### Sliding Window
 [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
 
 [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
@@ -125,42 +145,24 @@ $ ctest --output-on-failure
 
 [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)
 
-## Prefix Sum
+### Prefix Sum
 [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)
 
 [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
 
 [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 
-## Greedy
+### Greedy
 [455. Assign Cookies](https://leetcode.com/problems/assign-cookies/description/)
 
 [2410. Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/)
 
-## Bit Manipulation
+### Bit Manipulation
 [338. Counting Bits](https://leetcode.com/problems/counting-bits/description/)
 
 [136. Single Number](https://leetcode.com/problems/single-number/description/)
 
 [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
-
-## Graph
-[133. Clone Graph](https://leetcode.com/problems/clone-graph/)
-
-[366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/description/) (LeetCode Premium)
-
-[207. Course Schedule](https://leetcode.com/problems/course-schedule/description/)
-
-[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)
-
-[839. Similar String Groups](https://leetcode.com/problems/similar-string-groups/description/)
-
-## String
-[67. Add Binary](https://leetcode.com/problems/add-binary/description/)
-
-[28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
-
-[459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
 
 ## Jungle
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
