@@ -68,6 +68,8 @@ $ ctest --output-on-failure
 [459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
 
 ### Tree
+[701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/)
+
 [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
 
 [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
