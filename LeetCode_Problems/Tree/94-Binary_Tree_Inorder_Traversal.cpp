@@ -46,17 +46,17 @@ class SolutionIter {
 
     std::vector<int> ans;
     std::stack<TreeNode *> s;
-    TreeNode *curNode = root;
-    while (curNode != nullptr || !s.empty()) {
-      while (curNode != nullptr) {
-        s.push(curNode);
-        curNode = curNode->left;
+    TreeNode *cur = root;
+    while (cur != nullptr || !s.empty()) {
+      while (cur) {
+        s.push(cur);
+        cur = cur->left;
       }
 
-      TreeNode *curTop = s.top();
+      cur = s.top();
       s.pop();
-      ans.emplace_back(curTop->val);
-      curNode = curTop->right;
+      ans.emplace_back(cur->val);
+      cur = cur->right;
     }
 
     return ans;
