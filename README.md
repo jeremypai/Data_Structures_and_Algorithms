@@ -76,6 +76,8 @@ $ ctest --output-on-failure
 
 [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
 
+[101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
+
 [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
 
 [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
