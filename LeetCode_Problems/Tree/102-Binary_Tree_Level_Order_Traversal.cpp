@@ -12,7 +12,7 @@ struct TreeNode {
       : val(x), left(left), right(right) {}
 };
 
-class Solution {
+class SolutionGetSize {
  public:
   std::vector<std::vector<int>> levelOrder(TreeNode *root) {
     if (root == nullptr) {
@@ -40,6 +40,44 @@ class Solution {
       }
       ans.emplace_back(curLevel);
     }
+    return ans;
+  }
+};
+
+class SolutionUseNullptrMarker {
+ public:
+  std::vector<std::vector<int>> levelOrder(TreeNode *root) {
+    if (root == nullptr) {
+      return {};
+    }
+
+    std::vector<std::vector<int>> ans;
+    std::queue<TreeNode *> q;
+    q.push(root);
+    q.push(nullptr);
+    std::vector<int> level;
+    while (!q.empty()) {
+      TreeNode *curNode = q.front();
+      q.pop();
+
+      if (curNode == nullptr) {
+        ans.emplace_back(level);
+        level.clear();
+        if (!q.empty()) {
+          q.push(nullptr);
+        }
+        continue;
+      }
+
+      level.emplace_back(curNode->val);
+      if (curNode->left) {
+        q.push(curNode->left);
+      }
+      if (curNode->right) {
+        q.push(curNode->right);
+      }
+    }
+
     return ans;
   }
 };
