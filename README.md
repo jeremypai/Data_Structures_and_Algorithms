@@ -74,11 +74,11 @@ $ ctest --output-on-failure
 
 [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
 
+[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
+
 [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
 
 [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
-
-[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
 
 [100. Same Tree](https://leetcode.com/problems/same-tree/description/)
 
