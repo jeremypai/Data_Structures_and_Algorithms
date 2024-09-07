@@ -88,6 +88,8 @@ $ ctest --output-on-failure
 
 [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)
 
+[230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)
+
 [100. Same Tree](https://leetcode.com/problems/same-tree/description/)
 
 [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)
