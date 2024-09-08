@@ -133,6 +133,8 @@ $ ctest --output-on-failure
 
 [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
 
+[543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)
+
 ### Two Pointer
 [344. Reverse String](https://leetcode.com/problems/reverse-string/description/)
 
