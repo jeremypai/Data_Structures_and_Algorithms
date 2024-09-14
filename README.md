@@ -94,6 +94,9 @@ $ ctest --output-on-failure
 
 [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)
 
+### Heap (Priority Queue)
+[1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)
+
 ### Graph
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
