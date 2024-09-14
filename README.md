@@ -98,6 +98,8 @@ $ ctest --output-on-failure
 [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)
 
 ### Graph
+[841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)
+
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
 [366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/description/) (LeetCode Premium)
