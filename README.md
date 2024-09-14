@@ -94,6 +94,8 @@ $ ctest --output-on-failure
 
 [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)
 
+[366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/description/) (LeetCode Premium)
+
 ### Heap (Priority Queue)
 [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)
 
@@ -101,8 +103,6 @@ $ ctest --output-on-failure
 [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)
 
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
-
-[366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/description/) (LeetCode Premium)
 
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/description/)
 
