@@ -3,6 +3,7 @@
 
 #include <queue>
 #include <unordered_map>
+#include <unordered_set>
 #include <vector>
 
 struct Edge {
@@ -14,7 +15,7 @@ struct Edge {
 class PrimMST {
  private:
   std::unordered_map<int, std::vector<Edge>> adjList_;
-  std::unordered_map<int, bool> inMST_;
+  std::unordered_set<int> inMST_;
 
  public:
   PrimMST() = default;
@@ -27,7 +28,6 @@ class PrimMST {
       foundU->second.emplace_back(Edge{u, v, w});
     } else {
       adjList_[u] = std::vector<Edge>{Edge{u, v, w}};
-      inMST_[u] = false;
     }
 
     // from v to u
@@ -36,7 +36,6 @@ class PrimMST {
       foundV->second.emplace_back(Edge{v, u, w});
     } else {
       adjList_[v] = std::vector<Edge>{Edge{v, u, w}};
-      inMST_[v] = false;
     }
   }
 
@@ -48,7 +47,7 @@ class PrimMST {
 
     std::priority_queue<Edge, std::vector<Edge>, decltype(compare)> pq(compare);
 
-    inMST_[startIndex] = true;
+    inMST_.insert(startIndex);
     for (const auto& edge : adjList_[startIndex]) {
       pq.push(edge);
     }
@@ -58,11 +57,11 @@ class PrimMST {
       Edge edge = pq.top();
       pq.pop();
 
-      if (inMST_[edge.dest]) {
+      if (inMST_.count(edge.dest)) {
         continue;
       }
 
-      inMST_[edge.dest] = true;
+      inMST_.insert(edge.dest);
       ans.emplace_back(edge);
 
       for (const auto& neighbor : adjList_[edge.dest]) {
