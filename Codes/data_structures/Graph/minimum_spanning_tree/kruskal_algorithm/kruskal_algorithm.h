@@ -2,6 +2,7 @@
 #define KRUSKAL_ALGORITHM_H_
 
 #include <algorithm>
+#include <unordered_set>
 #include <vector>
 
 struct MSTEdge {
@@ -13,10 +14,10 @@ struct MSTEdge {
 class KruskalMST {
  private:
   std::vector<MSTEdge> edgeList_;
-  std::vector<bool> inMST_;
+  std::unordered_set<int> inMST_;
 
  public:
-  KruskalMST(int v) : inMST_(v, false) {}
+  KruskalMST() = default;
   ~KruskalMST() = default;
 
   void addEdge(int u, int v, int w) {
@@ -34,13 +35,13 @@ class KruskalMST {
       const auto& src = edge.src;
       const auto& dest = edge.dest;
 
-      if (inMST_[src] && inMST_[dest]) {
+      if (inMST_.count(src) && inMST_.count(dest)) {
         // already into spanning tree
         continue;
       }
 
-      inMST_[src] = true;
-      inMST_[dest] = true;
+      inMST_.insert(src);
+      inMST_.insert(dest);
       ans.emplace_back(edge);
     }
 
