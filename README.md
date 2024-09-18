@@ -110,6 +110,8 @@ $ ctest --output-on-failure
 
 [839. Similar String Groups](https://leetcode.com/problems/similar-string-groups/description/)
 
+[743. Network Delay Time](https://leetcode.com/problems/network-delay-time/description/)
+
 ### Union Find
 [547. Number of Provinces](https://leetcode.com/problemset/?page=1&listId=79h8rn6)
 
