@@ -115,6 +115,9 @@ $ ctest --output-on-failure
 ### Union Find
 [547. Number of Provinces](https://leetcode.com/problemset/?page=1&listId=79h8rn6)
 
+### Monotonic Stack
+[1475. Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/)
+
 ## Algorithms
 ### Binary Search
 [704. Binary Search](https://leetcode.com/problems/binary-search/description/)
