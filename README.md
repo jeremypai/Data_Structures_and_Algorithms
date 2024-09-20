@@ -118,6 +118,8 @@ $ ctest --output-on-failure
 ### Monotonic Stack
 [1475. Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/)
 
+[496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)
+
 ## Algorithms
 ### Binary Search
 [704. Binary Search](https://leetcode.com/problems/binary-search/description/)
