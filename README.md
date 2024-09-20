@@ -120,6 +120,8 @@ $ ctest --output-on-failure
 
 [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)
 
+[503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)
+
 ## Algorithms
 ### Binary Search
 [704. Binary Search](https://leetcode.com/problems/binary-search/description/)
